@@ -7,8 +7,13 @@ ${answers.description}
         
 //fix table of content to input from answers
 ## Table of Content
-- [project description] (#Description)
-- [Usage] (#contributing )
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${answers.installation}
@@ -26,11 +31,11 @@ ${answers.contributing}
 ${answers.tests}
 
 ## Questions
-[GitHub: ${answers.github}](https://github.com/${answers.github})
+GitHub: [${answers.github}](https://github.com/${answers.github})
 
-${answers.email}
+Email: ${answers.email}
 
-Please email the above email with any additional questions. 
+Please send any additional questions to the email listed above. 
 ` ;
 };
 

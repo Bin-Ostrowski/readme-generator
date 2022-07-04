@@ -6,8 +6,13 @@ f
         
 //fix table of content to input from answers
 ## Table of Content
-- [project description] (#Description)
-- [Usage] (#contributing )
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 f
@@ -25,8 +30,8 @@ f
 f
 
 ## Questions
-[GitHub: bin-ostrowski](https://github.com/bin-ostrowski)
+GitHub: [f](https://github.com/f)
 
-bin.ostrowski@gmail.com
+Email: f
 
-Please email the above email with any additional questions. 
+Please send any additional questions to the email listed above. 

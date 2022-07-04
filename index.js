@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generatePage = require('./lib/ReadmeGen.js')
+const generatePage = require('./src/ReadmeGen.js')
 
 //create an array of questions fo user input
 const questions = [
@@ -134,11 +134,12 @@ const questions = [
     }
 ];
 
-//run question funtion
+//function to initialize app
 function runQuestions() {
     return inquirer.prompt(questions)
     .then((answers)=>{
-        // TODO: Create a function to write README file
+        
+        //function to write README file
         const readmePage = generatePage(answers);
         fs.writeFile('./README.md', readmePage, err => {
             if(err) throw new Error(err);
@@ -151,6 +152,7 @@ function runQuestions() {
     })
 };
 
+// Function call to initialize app
 runQuestions();
 
 // promptUser()
