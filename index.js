@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 // const path = require('path')
 const generatePage = require('./src/generateMarkdown.js');
+// const { filter } = require('rxjs');
 // const generateMarkdown =  require('./src/generateMarkdown')
 
 //create an array of questions fo user input
