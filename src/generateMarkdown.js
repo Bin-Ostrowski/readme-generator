@@ -1,36 +1,71 @@
-const renderLicenseBadge = license => { //change this to a filter function to grab whatever lisence they chose. (are common BSD, MIT, GPL)
-  const badges = {
-      bds: '[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)',
-      mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-      gnuplv3: '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
-  }
-  return badges[license];
-}
-
-const renderLicenseLink = license => {
-  const licenseLinks = {
-      bds: 'https://choosealicense.com/licenses/bsd-2-clause/',
-      mit: 'https://choosealicense.com/licenses/mit/',
-      gnuplv3: 'https://choosealicense.com/licenses/gpl-3.0/'
-  }
-}
 
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(license === 'no license'){
+    return '';
+  }
+  return `![License](https://img.shields.io/badge/License-${license}-orange.svg)`
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if(license === 'no license'){
+    return '';
+  }
+return '- [License](#license)'
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(license === 'no license'){
+    return '';
+  }
+  return `## License
+ 
+  This project is licensed under ${license} license.
+   `
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(answers) {
+  return `# ${answers.title} ${renderLicenseBadge(answers.license)}
+        
+  ## Description
+  ${answers.description}
+          
+  ## Table of Content
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+ ${renderLicenseLink(answers.license)}
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Installation
+  ${answers.installation}
+  
+  ## Usage
+  ${answers.usage}
+  
+ ${renderLicenseSection(answers.license)}
+  
+  ## Contributing
+  ${answers.contributing}
+  
+  ## Tests
+  ${answers.tests}
+  
+  ## Questions
+  GitHub: [${answers.github}](https://github.com/${answers.github})
+  
+  Email: ${answers.email}
+  
+  Please send any additional questions to the email listed above. 
 
 `;
 }
