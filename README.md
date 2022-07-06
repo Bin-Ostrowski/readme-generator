@@ -1,7 +1,7 @@
-# r  ![License](https://img.shields.io/badge/License-BDS-orange.svg)
+# README Generator  ![License](https://img.shields.io/badge/License-MIT-orange.svg)
         
   ## Description
-  r
+  This project takes inputs from a command line and renders a projessional README.md file based on the users input
           
   ## Table of Content
   - [Description](#description)
@@ -13,26 +13,26 @@
   - [Questions](#questions)
   
   ## Installation
-  r
+  First, download the repository from bin-ostrowski GitHub, open the file in VS, then open a terminal from the index.js file, then in command terminal type node index. 
   
   ## Usage
-  r
+  I want to quickly generate a README.md file for a finished project. Here I can download the project, answer a few questions, and have a readme file generated for me. 
   
  ## License
  
-  This project is licensed under BDS license.
+  This project is licensed under MIT license.
    
   
   ## Contributing
-  r
+  Please contribute by pusinging any added code to a feature branch and ask for a pull requst. 
   
   ## Tests
-  r
+  I have not generated any tests yet, this is a great opportunity for someone to contribute to. 
   
   ## Questions
-  GitHub: [r](https://github.com/r)
+  GitHub: [Bin-Ostrowski](https://github.com/Bin-Ostrowski)
   
-  Email: r
+  Email: bin.ostrowski@gmail.com
   
   Please send any additional questions to the email listed above. 
 

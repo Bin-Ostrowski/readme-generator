@@ -68,6 +68,6 @@ function generateMarkdown(answers) {
   Please send any additional questions to the email listed above. 
 
 `;
-}
+};
 
 module.exports = generateMarkdown;
