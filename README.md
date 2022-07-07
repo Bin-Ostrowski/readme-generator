@@ -1,7 +1,7 @@
-# r  ![License](https://img.shields.io/badge/License-BDS-orange.svg)
+# Sample Title  ![License](https://img.shields.io/badge/License-BDS-orange.svg)
         
   ## Description
-  r
+  Sample Description
           
   ## Table of Content
   - [Description](#description)
@@ -13,10 +13,10 @@
   - [Questions](#questions)
   
   ## Installation
-  r
+  Sample Steps
   
   ## Usage
-  r
+  Sample instructions
   
  ## License
  
@@ -24,15 +24,15 @@
    
   
   ## Contributing
-  r
+  Samplbe contributions
   
   ## Tests
-  r
+  Sample tests
   
   ## Questions
-  GitHub: [r](https://github.com/r)
+  GitHub: [bin-ostrowski](https://github.com/bin-ostrowski)
   
-  Email: r
+  Email: bin.ostrowski@gmail.com
   
   Please send any additional questions to the email listed above. 
 
